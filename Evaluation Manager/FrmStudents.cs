@@ -44,5 +44,9 @@ namespace Evaluation_Manager
                 frmEvaluation.ShowDialog();
             }
         }
+        private void btnGenerateEvaluationReport_Click(object sender, EventArgs e) {
+               var form = new frmFInalReport();
+               form.ShowDialog();
+        }
     }
 }
